@@ -24,9 +24,9 @@ Subscribe_Topic = "@msg/LED"
 Publish_Topic = "@shadow/data/update"
 
 # Get your own ID, Token and Secret from NETPIE
-Client_ID = "266c80e4-0597-450a-b5da-6ec112c96e8e"
-Token = "DTZGXS2dBNLjkm8eeGCj9UpRBb3q5zME"
-Secret = "aGep32QBkyMX96R5MnBhJrPYyPSRxnND"
+Client_ID = "Your ID"
+Token = "Your Token"
+Secret = "Your Secret"
 
 MqttUser_Pass = {"username":Token,"password":Secret}
 
@@ -51,7 +51,7 @@ client.username_pw_set(Token,Secret)
 client.connect(Server_ip, port)
 
 # Initialize serial connection
-ser = serial.Serial('COM3', 115200)  # Replace 'COMx' with the correct port
+ser = serial.Serial('COMx', ????)  # Replace 'COMx' with the correct port
 ser.timeout = 1  # Optional timeout for reading
 
 # Global variable to store the last update time for dictionary values
