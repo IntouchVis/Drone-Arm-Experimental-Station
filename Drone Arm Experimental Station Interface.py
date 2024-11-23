@@ -51,7 +51,7 @@ client.username_pw_set(Token,Secret)
 client.connect(Server_ip, port)
 
 # Initialize serial connection
-ser = serial.Serial('COMx', ????)  # Replace 'COMx' with the correct port
+ser = serial.Serial('COM3', 115200  # Replace 'COMx' with the correct port
 ser.timeout = 1  # Optional timeout for reading
 
 # Global variable to store the last update time for dictionary values
